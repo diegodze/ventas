@@ -1,20 +1,21 @@
 <form (ngSubmit)="onSubmit()">
-    <h2>Registrar un nuevo articulo</h2>
-    <div>
-        <label for="id">ID articulo</label>
-        <input type="text" placeholder="Ingrese ID" name="id" id="id" [(ngModel)]="id">
+    <h2 class="text-center">Nuevo articulo</h2>
+
+    <label for="id" class="form-label">ID articulo</label>
+    <input type="text" class="form-control" placeholder="Ingrese ID" name="id" id="id" [(ngModel)]="id">
+
+
+    <label for="nombre" class="form-label">Nombre</label>
+    <input type="text" class="form-control" placeholder="Nombre del articulo" name="id" id="nombre" [(ngModel)]="title">
+
+
+    <label for="precio" class="form-label">precio</label>
+    <input type="text" class="form-control" placeholder="Ingrese el precio" name="id" id="precio" [(ngModel)]="price">
+
+
+    <label for="cantidad" class="form-label">Cantidad</label>
+    <input type="text" class="form-control" placeholder="Ingrese la cantidad" name="cantidad" id="id" [(ngModel)]="quantity">
+    <div class="text-center">
+        <input type="submit" id="boton" value="Agregar">
     </div>
-    <div>
-        <label for="nombre">Nombre</label>
-        <input type="text" placeholder="Nombre del articulo" name="id" id="nombre" [(ngModel)]="title">
-    </div>
-    <div>
-        <label for="precio">precio</label>
-        <input type="text" placeholder="Ingrese el precio" name="id" id="precio" [(ngModel)]="price">
-    </div>
-    <div>
-        <label for="cantidad">Cantidad</label>
-        <input type="text" placeholder="Ingrese la cantidad" name="cantidad" id="id" [(ngModel)]="quantity">
-    </div>
-    <input type="submit" value="Agregar">
 </form>

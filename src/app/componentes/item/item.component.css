@@ -59,5 +59,6 @@ div {
 }
 
 .actions button:hover {
-    background-color: aqua;
+    background-color: red;
+    border-radius: 5px;
 }

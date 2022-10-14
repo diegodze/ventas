@@ -9,15 +9,15 @@ export class ItemService {
   items : Item[] = [
     {
       id:0,
-      title: 'marcadores',
-      price: 150,
-      quantity: 4,
+      title: 'Ipad',
+      price: 14050,
+      quantity: 1,
       completed:false
     },
     {
       id:1,
-      title: 'libretas',
-      price: 200,
+      title: 'Iphone',
+      price: 20000,
       quantity: 2,
       completed:false
     }
